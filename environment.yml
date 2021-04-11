@@ -22,9 +22,9 @@ dependencies:
   - blinker=1.4=py38_0
   - brotlipy=0.7.0=py38h7b6447c_1000
   - c-ares=1.17.1=h27cfd23_0
-  - ca-certificates=2020.12.5=ha878542_0
+  - ca-certificates=2020.10.14=0
   - cachetools=4.1.1=py_0
-  - certifi=2020.12.5=py38h578d9bd_1
+  - certifi=2020.6.20=py38_0
   - cffi=1.14.3=py38he30daa8_0
   - chardet=3.0.4=py38_1003
   - click=7.1.2=py_0
@@ -129,6 +129,7 @@ dependencies:
   - requests-oauthlib=1.3.0=py_0
   - rsa=4.6=py_0
   - scipy=1.6.2=py38h91f5cce_0
+  - seaborn=0.11.0=py_0
   - send2trash=1.5.0=py_0
   - setuptools=50.3.0=py38hb0f4dca_1
   - six=1.15.0=py_0
