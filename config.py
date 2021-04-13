@@ -13,3 +13,15 @@ DATA_PATH = f'{PROJECT_ROOT_PATH}/data/'
 
 ENROLLMENT_BY_DEPARTMENT_DATAFILE = 'enrollment_by_department.csv'
 ENROLLMENT_BY_SEMESTER_DATAFILE = 'enrollment_by_semester.csv'
+
+FORMATTED_DATAFILE = 'enrollment_by_semester_formatted.csv'
+
+# Modeling meta-parameters
+TARGET_VARIABLE = 'Next Semester Census Enrollment'
+TRAIN_TEST_SPLIT = 0.7
+N_MODELS = 10
+
+# Neural network hyperparameters
+TRAINING_EPOCHS = 200
+UNITS = 64
+LEARNING_RATE = 0.02
