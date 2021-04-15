@@ -18,10 +18,10 @@ FORMATTED_DATAFILE = 'enrollment_by_semester_formatted.csv'
 
 # Modeling meta-parameters
 TARGET_VARIABLE = 'Next Semester Census Enrollment'
-TRAIN_TEST_SPLIT = 0.7
-N_MODELS = 10
+TRAIN_TEST_SPLIT = 0.5
+N_MODELS = 100
 
 # Neural network hyperparameters
-TRAINING_EPOCHS = 200
-UNITS = 64
+TRAINING_EPOCHS = 250
+UNITS = 128
 LEARNING_RATE = 0.02
